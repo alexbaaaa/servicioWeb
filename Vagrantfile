@@ -75,7 +75,7 @@ Vagrant.configure("2") do |config|
     apt-get upgrade -y
     #Instalar apache y todas las extensiones necesarias
     apt-get install -y apache2
-    apt-get install -y php libapache2-mod-phpc
+    apt-get install -y php libapache2-mod-php
     apt-get install -y php-cli
     apt-get install -y php-mysql
     apt-get install -y php-mbstring
